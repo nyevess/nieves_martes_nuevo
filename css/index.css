@@ -1,4 +1,69 @@
 /* *********************************** */
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
+.cajaGeneral{
+    display: flex;
+    justify-content: center;
+}
 
+header{
+    width: 900px;
+    height: 105px;
+    
+}
+
+.primeracaja{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.primero{
+    width: 210px;
+    margin: 0px; 
+    
+}
+
+.cuadrado1{
+    height: 210px;
+    background-color: #E16666;
+}
+
+.cuadrado2{
+    width: 440px;
+    height: 440px;
+    background-color: #E16666;
+}
+
+.derecha{
+    text-align: right;
+}
+
+
+p{
+    text-align: center;
+}
+
+.main_linea{
+    height: 10px;
+    background-color: red;
+}
+
+
+
+.main_cajaCirculos{
+
+    display: flex;
+    justify-content: space-around;
+   margin-top: 15px;
+}
+.main_circulo_externo, .main_circulo_interno{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: #F60000;
+}
+
+.main_circulo_interno{
+    background-color: #620000;
+}
