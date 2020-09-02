@@ -1,8 +1,21 @@
 
-/* colores y medidas cuadrados */
+
 body{
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
+
+.cajaGeneral{
+    width: 900px;
+}
+
+header{
+    display: flex;
+    justify-content: center;  
+   
+  }
+/* colores y medidas cuadrados */
 .cuadradoLados{
     width: 210px; 
     height: 210px;
@@ -16,18 +29,13 @@ body{
 
 }
 
-/* posicion cuadrados */
-header{
-    display: flex;
-    justify-content: center;  
-    align-self: flex-start;
-  
 
-}
+
+/* posicion cuadrados */
 
 .cajaLados{
     width: 210px;
-    
+   
     
 }
 /* texto alineacion drcha */
@@ -36,11 +44,9 @@ header{
 }
 
 /* main */
-main{
-    width: 900px;
+
     
-   
-}
+    
 p{
     text-align: justify;
 }
@@ -67,7 +73,3 @@ p{
     background-color: #620000;
 }
 
-.cajaGeneral{
-    width: 900px;
-   
-}
