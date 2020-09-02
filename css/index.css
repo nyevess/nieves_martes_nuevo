@@ -1,69 +1,73 @@
-/* *********************************** */
-/* *** Estilos SOLO para index.html *** */
-/* *********************************** */
-.cajaGeneral{
-    display: flex;
-    justify-content: center;
-}
 
-header{
-    width: 900px;
-    height: 105px;
-    
+/* colores y medidas cuadrados */
+body{
+    padding: 20px;
 }
-
-.primeracaja{
-    display: flex;
-    justify-content: space-between;
-   
-}
-
-.primero{
-    width: 210px;
-    margin: 0px; 
-    
-}
-
-.cuadrado1{
+.cuadradoLados{
+    width: 210px; 
     height: 210px;
-    background-color: #E16666;
+    background-color: #F60000;
+    
 }
-
-.cuadrado2{
+.cuadradoCentro{
     width: 440px;
     height: 440px;
-    background-color: #E16666;
+    background-color: #F60000;
+
 }
 
+/* posicion cuadrados */
+header{
+    display: flex;
+    justify-content: center;  
+    align-self: flex-start;
+  
+
+}
+
+.cajaLados{
+    width: 210px;
+    
+    
+}
+/* texto alineacion drcha */
 .derecha{
     text-align: right;
 }
 
-
+/* main */
+main{
+    width: 900px;
+    
+   
+}
 p{
-    text-align: center;
+    text-align: justify;
 }
-
-.main_linea{
-    height: 10px;
-    background-color: red;
-}
-
-
-
 .main_cajaCirculos{
-
     display: flex;
-    justify-content: space-around;
-   margin-top: 15px;
+    justify-content: center;
+  
 }
-.main_circulo_externo, .main_circulo_interno{
-    width: 210px;
-    height: 210px;
-    border-radius: 50%;
+/* línea */
+.main_linea{
+    height: 15px;
     background-color: #F60000;
 }
 
+/* colores y dimensiones circulos */
+.main_circulo_externo, .main_circulo_interno{
+    height: 210px;
+    width: 210px;
+    background-color: #F60000;
+    border-radius: 50%;
+    margin: 10px;
+}
 .main_circulo_interno{
     background-color: #620000;
+}
+
+.cajaGeneral{
+    width: 900px;
+   
 }
